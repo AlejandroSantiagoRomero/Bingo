@@ -1,0 +1,23 @@
+body{
+    height: auto;
+}
+header{
+    background-color: red;
+}
+.activo{
+    background-color: blue;
+    border: solid 1px;
+}
+.desactivado{
+    background-color: grey;
+    border: solid 1px;
+}
+article>.container-fluid>.row{
+    place-content: center;
+}
+article>.container-fluid>.row>div{
+    padding: 4px;
+}
+#navbar{
+    padding: 0%;
+}
